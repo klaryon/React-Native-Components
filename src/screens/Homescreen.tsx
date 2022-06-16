@@ -1,9 +1,12 @@
 import React from 'react'
 import { Text, View } from 'react-native';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 const Homescreen = () => {
   return (
-    <View><Text>Homescreen</Text></View>
+    <View>
+      <Icon name="star-outline" size={50} color="black" />
+    </View>
   )
 }
 
