@@ -10,12 +10,11 @@ export const Navigator = () => {
   return (
     <Stack.Navigator
       screenOptions={{
-          headerShown: false
-      }}
-    >
-      <Stack.Screen name="HomeScreen" component={ Homescreen } />
-      <Stack.Screen name="Animation101Screen" component={ Animation101Screen } />
-      <Stack.Screen name="Animation102Screen" component={ Animation102Screen } />
+        headerShown: false,
+      }}>
+      <Stack.Screen name="HomeScreen" component={Homescreen} />
+      <Stack.Screen name="Animation101Screen" component={Animation101Screen} />
+      <Stack.Screen name="Animation102Screen" component={Animation102Screen} />
     </Stack.Navigator>
   );
-}
+};
