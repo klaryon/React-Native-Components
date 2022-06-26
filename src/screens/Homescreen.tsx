@@ -1,11 +1,11 @@
 import React from 'react';
-import { View, FlatList, Text } from 'react-native';
+import { View, FlatList } from 'react-native';
 import { FlatListMenuItem } from '../components/FlatListMenuItem';
 import { HeaderTitle } from '../components/HeaderTitle';
 import { menuItems } from '../data/menuItems';
 import { styles } from '../theme/appTheme';
 
-const Homescreen = () => {
+export const HomeScreen = () => {
   const itemSeparator = () => {
     return (
       <View
@@ -29,5 +29,3 @@ const Homescreen = () => {
     </View>
   );
 };
-
-export default Homescreen;
