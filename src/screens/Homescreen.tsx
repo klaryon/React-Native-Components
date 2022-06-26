@@ -1,6 +1,5 @@
 import React from 'react';
 import { View, FlatList, Text } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { FlatListMenuItem } from '../components/FlatListMenuItem';
 import { HeaderTitle } from '../components/HeaderTitle';
 import { menuItems } from '../data/menuItems';
